@@ -7,7 +7,7 @@ builder.Services.AddMassTransit((config) =>
 {
     config.UsingRabbitMq((ctx, cfg) =>
     {
-        cfg.Host(host: "");
+        cfg.Host(host: "amqps://welaavja:x6hkeE8trOMn48bGFhmy_q1hgpCYlZA-@crow.rmq.cloudamqp.com/welaavja");
 
         // ConfigureEndpoints should be the last method called after all settings and middleware components have been configured.
         cfg.ConfigureEndpoints(ctx);
