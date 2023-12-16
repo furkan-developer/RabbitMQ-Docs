@@ -26,7 +26,8 @@ namespace Procuder.Controllers
 
             // Publish message for item created to rabbitMQ server
             _publish.Publish(message: new ItemCreatedMessage(Name: "Item-1"));
-
+            System.Console.WriteLine("Published Item-1");
+            
             return Created();
         }
     }
