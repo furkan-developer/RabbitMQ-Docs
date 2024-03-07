@@ -1,3 +1,6 @@
+# Overview
+ - https://www.milanjovanovic.tech/blog/using-masstransit-with-rabbitmq-and-azure-service-bus?utm_source=newsletter&utm_medium=email&utm_campaign=tnw78
+
 # Base configuration
 > MassTransit is usable in most .NET application types. MassTransit is easily configured in ASP.NET Core or .NET Generic Host applications (using .NET 6 or later). [Configuration](https://masstransit.io/documentation/configuration#configuration)
 
