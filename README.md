@@ -163,3 +163,7 @@ Bu Consumer projesi ile birlikte mevcut 3 consumer projemiz oldu. Procuder proje
 Yukarıdaki görsele bakıldığında Procuder projesinden tekarar iki mesaj yayınlandığında Consumer projelerinde kaç tane mesaj tüketildiği görülüyor. Consumer-3 projesi 2 mesaj tüketir iken diğer iki consumer projeleri bir mesaj tüketiyor. Çünkü Consumer-3 projesi için yapılan endpoint yapılandırma ayarlarında IConsumer<> dan implemente edilen sınıf için **specify-queue** adında bir kuyruğun oluşturulması söylendi. Daha önceden bahsettiğimiz gibi default olarak masstransit her kuyruk için bir exchange oluşturacağından dolayı specify-queue adında bir exchange daha oluşturuldu ve bu exchange e specify-queue kuyruğunu bind etti. Aşağıdaki şemada oluşan tüm exchange ler ve bunlara bind edilen kuyruklar gösteriliyor.
 
 ![](./Docs/scheme.png)
+
+# Send Message
+
+# Request/Reply pattern
